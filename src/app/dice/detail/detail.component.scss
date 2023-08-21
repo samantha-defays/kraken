@@ -1,0 +1,8 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+
+    img, article {
+        width: 45%;
+    }
+}
