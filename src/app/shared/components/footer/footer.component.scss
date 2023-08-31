@@ -1,15 +1,9 @@
-footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
+ small {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
 
-    small {
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
-    }
-
-    nav a {
-        font-size: 1.5rem;
-        margin: 1rem;
-    }
+nav a {
+    font-size: 1.5rem;
+    margin: 1rem;
 }

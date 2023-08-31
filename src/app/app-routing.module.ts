@@ -6,7 +6,7 @@ import { ClearDiceComponent } from './dice/clear-dice/clear-dice.component';
 const routes: Routes = [
   {
     path: "",
-    title: "Kraken Play",
+    title: "Fear the Kraken",
     component: HomeComponent
   },
   {
