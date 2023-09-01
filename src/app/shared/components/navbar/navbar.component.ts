@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  public themeDark: boolean = false;
+  public themeDark: boolean = true;
 
 }
