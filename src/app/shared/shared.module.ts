@@ -5,6 +5,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
+import { PrimengModule } from '../primeng/primeng.module';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   imports: [
     CommonModule,
+    PrimengModule,
+    FormsModule,
   ],
   exports: [
     HeaderComponent,
