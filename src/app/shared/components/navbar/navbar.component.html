@@ -1,13 +1,13 @@
 <section>
     <nav>
-        <a routerLink="dice" activeLink="active">Dice</a>
-        <a routerLink="accessories" activeLink="active">Accessories</a>
-        <a routerLink="sales" activeLink="active">Sales</a>
+        <a routerLink="/dice">Dice</a>
+        <a routerLink="/accessories">Accessories</a>
+        <a routerLink="/sales">Sales</a>
     </nav>
     <article>
         <i class="fi fi-rr-shopping-cart"></i>
         <i class="fi fi-rs-user"></i>
-        <span>
+        <!-- <span>
             <p-inputSwitch [(ngModel)]="themeDark"></p-inputSwitch>
             <ng-container *ngIf="themeDark; else themeLight">
                 <i class="pi pi-moon"></i>
@@ -15,6 +15,6 @@
             <ng-template #themeLight>
                 <i class="pi pi-sun"></i>
             </ng-template>
-        </span>
+        </span> -->
     </article>
 </section>
