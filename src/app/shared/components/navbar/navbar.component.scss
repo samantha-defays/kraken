@@ -1,20 +1,20 @@
 section {
+    font-size: 2rem;
+    padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 2rem;
-    padding: 1rem 0;
+
+    nav {
+        font-size: 1rem;
+        vertical-align: baseline;
+
+        img {
+            height: 1.5rem;
+        }
+    }
 
     article i, nav a {
         margin: 0 1rem;
-    }
-
-    nav a{
-        text-transform: uppercase;
-
-        &:hover {
-            color: var(--primary-color);
-            cursor: pointer;
-        }
     }
 }

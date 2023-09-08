@@ -1,0 +1,13 @@
+#presentation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    article, image {
+        width: 45%;
+    }
+
+    img {
+        width: 20vw;
+    }
+}
